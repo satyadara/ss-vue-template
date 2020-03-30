@@ -1,20 +1,16 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld :msg="this.resume.skills[0]" />
+    <personal-info :msg="this.resume.skills[0]" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 import { mapState, mapActions } from "vuex";
 
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  },
+  components: {},
   mounted() {
     this.getResume();
   },
