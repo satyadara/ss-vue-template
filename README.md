@@ -1,24 +1,10 @@
-# satya-syahputra-vuejs
+# Template Project Structure for VueJS
 
-## Project setup
+## How to use
 ```
-npm install
+vue create --preset satyadara/ss-vue-template <project-name>
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## What's include?
+- Vue Router
+- Vuex
+- Progressive Web Apps (PWA)
